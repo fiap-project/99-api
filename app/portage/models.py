@@ -6,8 +6,8 @@ class Portage(models.Model):
     car_name = models.CharField(max_length=100)
     car_type = models.CharField(max_length=100)
     car_color = models.CharField(max_length=100)
-    lat = models.DecimalField(max_digits=9, decimal_places=6)
-    long = models.DecimalField(max_digits=9, decimal_places=6)
+    lat = models.CharField(max_length=100)
+    long = models.CharField(max_length=100)
 
 
 
